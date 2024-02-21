@@ -1,0 +1,55 @@
+import numpy as np
+#ary
+myar=np.array([3,2,1,5,6])
+
+#2d ary
+tod=np.array([[1,2,3],[3,4,5]])
+tod
+
+#create a array of zeros
+zeros=np.zeros((3,4))
+zeros
+
+
+#for equally space b/w ary elts to a range
+ar=np.linspace(1,50,10)
+ar
+
+#identity matrix siz x siz
+id=np.identity(20);
+id
+
+#create a array from 0 to n-1 range
+ary=np.arange(10);
+ary
+
+#now reshape the above ary but element size should same(elt in 1 row,arys)
+ary=ary.reshape(2,5)
+ary
+
+#to again chnage above ary into  1d ary
+ary=ary.ravel()
+ary
+
+#sum of 2d or 1d ary
+arrr= np.array([[1,2,3],[4,15,6],[7,8,9]])
+#for rowwise sum ->
+sm = arrr.sum(axis=1);
+sm
+#for column wise sum
+smm=arrr.sum(axis=0);
+smm
+
+
+ #to transspose the 2d ary
+trns=arrr.T
+trns
+
+#to find the index of the max elt
+mx=arrr.argmax()
+mx                   #and argmin for minimum
+
+#elt wise sum to dif arys
+a=ar1+ar2        #same for * and divide
+
+
