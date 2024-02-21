@@ -1,0 +1,11 @@
+import numpy as pandas
+import pandas as pd
+
+dict1={
+    "Name": ['Nitin','Sahil','Manish','Rohit','Rahul'],
+    "Grade": ['A','A+','C','B+','O'],
+    "City":['Hmr','Bil','Hmr','Hmr','Kgr'],
+    "Class":[]
+}
+df=pd.DataFrame(dict1)
+df
